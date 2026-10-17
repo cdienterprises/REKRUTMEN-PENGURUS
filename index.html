@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>REKRUTMEN PENGURUS</title>
+
+<link rel="icon" type="image/png" href="https://www.dropbox.com/scl/fi/j93pag2ashsyufrruyism/Logo-Kabinet.png?rlkey=t2tur42bppauuhormdz0ier3i&st=dbd8wqb7&raw=1">
+
+<style>
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;
+  }
+
+  #app {
+    position: fixed;
+    inset: 0;
+    height: 100dvh; /* stabil walau address bar HP muncul/hilang, beda dgn 100vh */
+    width: 100vw;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    background: #ffffff;
+  }
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #ffffff;
+  }
+</style>
+</head>
+<body>
+
+<div id="app">
+  <iframe
+    id="mlFrame"
+    src="https://script.google.com/macros/s/AKfycbxk6KF6NkU0dPxJmNgCaT6asvjucBND0-Eig7r7QL0oKhzHOUxlHF9ov1NXCDebk8o/exec"
+    title="REKRUTMEN PENGURUS"
+    allow="fullscreen"
+    allowfullscreen
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+</body>
+</html>
